@@ -12,4 +12,9 @@
     <li>CSS3</li>
     <li>JavaScript</li>
   </ul>
+  
+  <h3>Images</h3>
+  <img src="./screenshots/screenshots1.png" width="500px" alt="Instagram">
+  <img src="./screenshots/screenshots2.png" width="500px" alt="Instagram">
+  <img src="./screenshots/screenshots3.png" width="500px" alt="Instagram">
 </div>
