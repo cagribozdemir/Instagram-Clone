@@ -5,8 +5,6 @@
 <div>
   <h3>About Project</h3>
   <p>The project of this repository is the clone of the <a href="https://instagram.com">Instagram</a> login page using HTML5, CSS3 and JavaScript.</p>
-
-  ### [Click here to view final project page](https://cagribozdemir.github.io/Instagram-Clone/)
   
   <h3>Languages Used</h3>
   <ul>
