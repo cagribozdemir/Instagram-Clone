@@ -15,6 +15,8 @@
   
   <h3>Images</h3>
   <img src="screenshots/screenshots1.PNG" width="500px">
+  <hr>
   <img src="screenshots/screenshots2.PNG" width="500px">
+  <hr>
   <img src="screenshots/screenshots3.PNG" width="500px">
 </div>
