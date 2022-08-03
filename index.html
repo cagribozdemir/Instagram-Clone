@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/37f54710bc.js" crossorigin="anonymous"></script>
+
+    <!-- Title and FavIcon-->
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="./assets/images/logos/instagram-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <article>
+            <div id="image-container">
+                <div class="carousel">
+                    <img class="carousel-image fade" src="./assets/images/screenshots/screenshot1.png">
+                    <img class="carousel-image fade" src="./assets/images/screenshots/screenshot2.png">
+                    <img class="carousel-image fade" src="./assets/images/screenshots/screenshot3.png">
+                    <img class="carousel-image fade" src="./assets/images/screenshots/screenshot4.png">
+                </div>
+            </div>
+            <section id="login-container">
+                <div class="principal">
+                    <header class="logo">
+                        <img src="./assets/images/logos/instagram-logo.png" alt="Instagram">
+                    </header>
+                    <form>
+                        <fieldset class="form-box">
+                            <label for="user">Phone number, username or email</label>
+                            <input type="text" name="user" id="user" required>
+                        </fieldset>
+                        <fieldset class="form-box">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                            <div class="password-view">
+                                <button type="button">
+                                    <span class="password-show">Show</span>
+                                    <span class="password-hide">Hide</span>
+                                </button>
+                            </div>
+                        </fieldset>
+                        <div class="form-box">
+                            <button type="button" id="login">Log In</button>
+                        </div>
+                        <div class="form-box box-or">
+                            <div class="bar"></div>
+                            <div class="text">Or</div>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="form-box box-facebook">
+                            <button type="button">
+                                <span>
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                </span>
+                                <span>Log in with Facebook</span>
+                            </button>
+                        </div>
+                        <div class="form-box box-forgot-password">
+                            <a href="#!">Forgot password?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="new-user">
+                    <p>Don't have an account? <a href="#">Sign up</a></p>
+                </div>
+                <div class="get-the-app">
+                    <p>Get the app.</p>
+                    <span class="badge">
+                        <a href="#!">
+                            <img src="./assets/images/badges/en-badge-ios.png" alt="Download on the App Store">
+                        </a>
+                    </span>
+                    <span class="badge">
+                        <a href="#!">
+                            <img src="./assets/images/badges/en-badge-android.png" alt="Get it on Google Play">
+                        </a>
+                    </span>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="https://about.facebook.com/" target="_blank">Meta</a></li>
+                <li><a href="https://about.instagram.com/" target="_blank">About</a></li>
+                <li><a href="https://about.instagram.com/en_US/blog" target="_blank">Blog</a></li>
+                <li><a href="https://about.instagram.com/about-us/careers" target="_blank">Jobs</a></li>
+                <li><a href="https://help.instagram.com/" target="_blank">Help</a></li>
+                <li><a href="https://developers.facebook.com/docs/instagram" target="_blank">API</a></li>
+                <li><a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect" target="_blank">Privacy</a></li>
+                <li><a href="https://help.instagram.com/581066165581870" target="_blank">Terms</a></li>
+                <li><a href="https://www.instagram.com/directory/profiles/" target="_blank">Top Account</a></li>
+                <li><a href="https://www.instagram.com/directory/hashtags/" target="_blank">Hashtags</a></li>
+                <li><a href="https://www.instagram.com/explore/locations/" target="_blank">Locations</a></li>
+                <li><a href="https://www.instagram.com/web/lite/" target="_blank">Instagram Lite</a></li>
+                <li><a href="https://www.facebook.com/help/instagram/261704639352628" target="_blank">Contact Uploading & Non-Users</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://www.instagram.com/topics/dance-and-performance/" target="_blank">Dance</a></li>
+                <li><a href="https://www.instagram.com/topics/food-and-drink/" target="_blank">Food & Drink</a></li>
+                <li><a href="https://www.instagram.com/topics/home-and-garden/" target="_blank">Home & Garden</a></li>
+                <li><a href="https://www.instagram.com/topics/music/" target="_blank">Music</a></li>
+                <li><a href="https://www.instagram.com/topics/visual-arts/" target="_blank">Visual Arts</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="select-language">
+                    <span class="current-language">English <i class="fa-solid fa-angle-down"></i></span>
+                    <select name="language">
+                        <option value="en" selected>English</option>
+                        <option value="tr">Türkçe</option>
+                        <option value="de">Deutsch</option>
+                        <option value="it">Italiano</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </li>
+                <li>© 2022 Instagram from Meta</li>
+            </ul>
+        </div>
+        <div class="tnb">
+            <p>Clone made by <strong>Cagri Bozdemir</strong></p>
+            <span>
+                <a href="http://github.com/cagribozdemir" target="_blank">
+                    <img src="./assets/images/thenextbunny/square brands/github.svg" alt="Cagri Bozdemir's GitHub Profile">
+                </a>  
+            </span>
+            <span>
+                <a href="https://www.linkedin.com/in/cagribozdemir/" target="_blank">
+                    <img src="./assets/images/thenextbunny/square brands/linkedin.svg" alt="Cagri Bozdemir's LinkedIn Profile">
+                </a>
+            </span>
+            <span>
+                <a href="mailto:cagribozdemir0@gmail.com" target="_blank">
+                    <img src="./assets/images/thenextbunny/square brands/email.svg" alt="Cagri Bozdemir's email">
+                </a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/image-slide.js"></script>
+    <script src="./assets/js/change-language.js"></script>
+</body>
+</html>
